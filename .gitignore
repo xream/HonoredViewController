@@ -1,3 +1,10 @@
+# Exclude the Podspecs
+Pods/*
+Podfile.lock
+
+# Exclude OS X folder attributes
+.DS_Store
+
 # Xcode
 build/*
 *.pbxuser
